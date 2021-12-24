@@ -13,6 +13,11 @@
 		C17327C02775F42D00738D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17327BE2775F42D00738D09 /* Main.storyboard */; };
 		C17327C22775F43000738D09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C17327C12775F43000738D09 /* Assets.xcassets */; };
 		C17327C52775F43000738D09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17327C32775F43000738D09 /* LaunchScreen.storyboard */; };
+		C17327D52775F86400738D09 /* DynamicProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17327D42775F86400738D09 /* DynamicProtocols.swift */; };
+		C17327D72775F90300738D09 /* DynamicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17327D62775F90300738D09 /* DynamicModel.swift */; };
+		C17327D92775F9FC00738D09 /* DynamicRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17327D82775F9FC00738D09 /* DynamicRouter.swift */; };
+		C17327DB2775FADD00738D09 /* DynamicPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17327DA2775FADD00738D09 /* DynamicPresenter.swift */; };
+		C17327DD2776408300738D09 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17327DC2776408300738D09 /* MainTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		C17327C12775F43000738D09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C17327C42775F43000738D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C17327C62775F43000738D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C17327D42775F86400738D09 /* DynamicProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicProtocols.swift; sourceTree = "<group>"; };
+		C17327D62775F90300738D09 /* DynamicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicModel.swift; sourceTree = "<group>"; };
+		C17327D82775F9FC00738D09 /* DynamicRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicRouter.swift; sourceTree = "<group>"; };
+		C17327DA2775FADD00738D09 /* DynamicPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicPresenter.swift; sourceTree = "<group>"; };
+		C17327DC2776408300738D09 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,84 @@
 		C17327B72775F42D00738D09 /* TTop_Sample */ = {
 			isa = PBXGroup;
 			children = (
-				C17327B82775F42D00738D09 /* AppDelegate.swift */,
-				C17327BA2775F42D00738D09 /* SceneDelegate.swift */,
+				C17327C62775F43000738D09 /* Info.plist */,
+				C17327D12775F61100738D09 /* AppMain */,
+				C17327CE2775F51C00738D09 /* View */,
 				C17327BC2775F42D00738D09 /* ViewController.swift */,
+				C17327CF2775F52500738D09 /* Interactor */,
+				C17327CD2775F51300738D09 /* Presenter */,
+				C17327CC2775F4FC00738D09 /* Entity */,
+				C17327D02775F55E00738D09 /* Router */,
+				C17327D32775F80000738D09 /* Protocols */,
 				C17327BE2775F42D00738D09 /* Main.storyboard */,
 				C17327C12775F43000738D09 /* Assets.xcassets */,
 				C17327C32775F43000738D09 /* LaunchScreen.storyboard */,
-				C17327C62775F43000738D09 /* Info.plist */,
 			);
 			path = TTop_Sample;
+			sourceTree = "<group>";
+		};
+		C17327CC2775F4FC00738D09 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				C17327D62775F90300738D09 /* DynamicModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		C17327CD2775F51300738D09 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C17327DA2775FADD00738D09 /* DynamicPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C17327CE2775F51C00738D09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C17327D22775F66100738D09 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C17327CF2775F52500738D09 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C17327D02775F55E00738D09 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C17327D82775F9FC00738D09 /* DynamicRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C17327D12775F61100738D09 /* AppMain */ = {
+			isa = PBXGroup;
+			children = (
+				C17327BA2775F42D00738D09 /* SceneDelegate.swift */,
+				C17327B82775F42D00738D09 /* AppDelegate.swift */,
+			);
+			path = AppMain;
+			sourceTree = "<group>";
+		};
+		C17327D22775F66100738D09 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C17327DC2776408300738D09 /* MainTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C17327D32775F80000738D09 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C17327D42775F86400738D09 /* DynamicProtocols.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +219,12 @@
 			files = (
 				C17327BD2775F42D00738D09 /* ViewController.swift in Sources */,
 				C17327B92775F42D00738D09 /* AppDelegate.swift in Sources */,
+				C17327DD2776408300738D09 /* MainTableViewCell.swift in Sources */,
+				C17327D92775F9FC00738D09 /* DynamicRouter.swift in Sources */,
+				C17327DB2775FADD00738D09 /* DynamicPresenter.swift in Sources */,
 				C17327BB2775F42D00738D09 /* SceneDelegate.swift in Sources */,
+				C17327D52775F86400738D09 /* DynamicProtocols.swift in Sources */,
+				C17327D72775F90300738D09 /* DynamicModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +390,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +418,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
