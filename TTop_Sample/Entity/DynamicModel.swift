@@ -13,6 +13,6 @@ struct DynamicModel: Codable {
 }
 
 struct Items: Codable {
-    let key: String?
-    let value: String?
+    let name: String?
+    let capital: String?
 }

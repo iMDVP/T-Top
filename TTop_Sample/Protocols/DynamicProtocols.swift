@@ -38,3 +38,8 @@ protocol DynamicListViewToPresenterProtocol: AnyObject {
 protocol DynamicListPresenterToRouterProtocol: AnyObject {
     static func createModule() -> UIViewController
 }
+
+protocol TableManager {
+    func appendBox(count: Int)
+    func appendItem(indexPath: IndexPath, count: Int)
+}

@@ -15,8 +15,18 @@ class DynamicRouter: DynamicListPresenterToRouterProtocol {
     
     class func createModule() -> UIViewController {
         let view = ViewController()
-
+        let presenter: DynamicListViewToPresenterProtocol & DynamicListInteractorToPresenterProtocol = DynamicPresenter()
+        let interactor: DynamicListPresenterToInteractorProtocol = DynamicInteractor()
+        let router: DynamicListPresenterToRouterProtocol = DynamicRouter()
+        
+        view.presenter = presenter
+        presenter.view = view
+        presenter.router = router
+        presenter.interactor = interactor
+        interactor.presenter = presenter
+        
         return view
+
     }
 
 }

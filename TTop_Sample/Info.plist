@@ -2,24 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIApplicationSceneManifest</key>
-	<dict>
-		<key>UIApplicationSupportsMultipleScenes</key>
-		<false/>
-		<key>UISceneConfigurations</key>
-		<dict>
-			<key>UIWindowSceneSessionRoleApplication</key>
-			<array>
-				<dict>
-					<key>UISceneConfigurationName</key>
-					<string>Default Configuration</string>
-					<key>UISceneDelegateClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
-					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
-				</dict>
-			</array>
-		</dict>
-	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Lalezar.ttf</string>
+		<string>IRANSansMobile-Bold.otf</string>
+		<string>me_quran.ttf</string>
+		<string>IRANSansMobile-Light.otf</string>
+		<string>IRANSansMobile-Medium.otf</string>
+		<string>IRANSansMobile-UltraLight.otf</string>
+		<string>IRANSansMobile.otf</string>
+		<string>Yekan.ttf</string>
+		<string>IRANYekan-Light.ttf</string>
+		<string>IRANYekan-Bold.ttf</string>
+		<string>DiodrumArabic-Regular.ttf</string>
+		<string>DiodrumArabic-Medium.ttf</string>
+		<string>DiodrumArabic-Semibold.ttf</string>
+		<string>DiodrumArabic-Bold.ttf</string>
+		<string>DiodrumArabic-Light.ttf</string>
+		<string>DiodrumArabic-Extralight.ttf</string>
+	</array>
 </dict>
 </plist>

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C17327B92775F42D00738D09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17327B82775F42D00738D09 /* AppDelegate.swift */; };
-		C17327BB2775F42D00738D09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17327BA2775F42D00738D09 /* SceneDelegate.swift */; };
 		C17327BD2775F42D00738D09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17327BC2775F42D00738D09 /* ViewController.swift */; };
 		C17327C02775F42D00738D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17327BE2775F42D00738D09 /* Main.storyboard */; };
 		C17327C22775F43000738D09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C17327C12775F43000738D09 /* Assets.xcassets */; };
@@ -17,13 +16,43 @@
 		C17327D72775F90300738D09 /* DynamicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17327D62775F90300738D09 /* DynamicModel.swift */; };
 		C17327D92775F9FC00738D09 /* DynamicRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17327D82775F9FC00738D09 /* DynamicRouter.swift */; };
 		C17327DB2775FADD00738D09 /* DynamicPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17327DA2775FADD00738D09 /* DynamicPresenter.swift */; };
-		C17327DD2776408300738D09 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17327DC2776408300738D09 /* MainTableViewCell.swift */; };
+		C17327DD2776408300738D09 /* TableListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17327DC2776408300738D09 /* TableListViewCell.swift */; };
+		C1B8814A27764DB700ADB129 /* DropDown in Frameworks */ = {isa = PBXBuildFile; productRef = C1B8814927764DB700ADB129 /* DropDown */; };
+		C1B8814E277652E900ADB129 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B8814D277652E900ADB129 /* UILabel.swift */; };
+		C1B881612776532700ADB129 /* IRANYekan-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1B881512776532700ADB129 /* IRANYekan-Bold.ttf */; };
+		C1B881622776532700ADB129 /* IRANSansMobile-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C1B881522776532700ADB129 /* IRANSansMobile-Bold.otf */; };
+		C1B881632776532700ADB129 /* DiodrumArabic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1B881532776532700ADB129 /* DiodrumArabic-Bold.ttf */; };
+		C1B881642776532700ADB129 /* DiodrumArabic-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1B881542776532700ADB129 /* DiodrumArabic-Semibold.ttf */; };
+		C1B881652776532700ADB129 /* IRANSansMobile-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C1B881552776532700ADB129 /* IRANSansMobile-Medium.otf */; };
+		C1B881662776532700ADB129 /* DiodrumArabic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1B881562776532700ADB129 /* DiodrumArabic-Regular.ttf */; };
+		C1B881672776532700ADB129 /* Lalezar.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1B881572776532700ADB129 /* Lalezar.ttf */; };
+		C1B881682776532700ADB129 /* DiodrumArabic-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1B881582776532700ADB129 /* DiodrumArabic-Medium.ttf */; };
+		C1B881692776532700ADB129 /* IRANYekan-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1B881592776532700ADB129 /* IRANYekan-Light.ttf */; };
+		C1B8816A2776532700ADB129 /* IRANSansMobile-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C1B8815A2776532700ADB129 /* IRANSansMobile-Light.otf */; };
+		C1B8816B2776532700ADB129 /* IRANSansMobile-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = C1B8815B2776532700ADB129 /* IRANSansMobile-UltraLight.otf */; };
+		C1B8816C2776532700ADB129 /* DiodrumArabic-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1B8815C2776532700ADB129 /* DiodrumArabic-Light.ttf */; };
+		C1B8816D2776532700ADB129 /* me_quran.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1B8815D2776532700ADB129 /* me_quran.ttf */; };
+		C1B8816E2776532700ADB129 /* IRANSansMobile.otf in Resources */ = {isa = PBXBuildFile; fileRef = C1B8815E2776532700ADB129 /* IRANSansMobile.otf */; };
+		C1B8816F2776532700ADB129 /* DiodrumArabic-Extralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1B8815F2776532700ADB129 /* DiodrumArabic-Extralight.ttf */; };
+		C1B881702776532700ADB129 /* Yekan.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1B881602776532700ADB129 /* Yekan.ttf */; };
+		C1B881722776538F00ADB129 /* FontString.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B881712776538F00ADB129 /* FontString.swift */; };
+		C1B88174277653BB00ADB129 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B88173277653BA00ADB129 /* UIFont.swift */; };
+		C1B88176277653CF00ADB129 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B88175277653CE00ADB129 /* String.swift */; };
+		C1B881782776540D00ADB129 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B881772776540D00ADB129 /* UIColor.swift */; };
+		C1B8817A2776567100ADB129 /* DynamicInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B881792776567100ADB129 /* DynamicInteractor.swift */; };
+		C1B8817C2776EE5900ADB129 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = C1B8817B2776EE5900ADB129 /* data.json */; };
+		C1B8817E27770E2900ADB129 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B8817D27770E2900ADB129 /* Bundle.swift */; };
+		C1B8818527771F3600ADB129 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B8818427771F3600ADB129 /* ListView.swift */; };
+		C1B88187277722F700ADB129 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B88186277722F700ADB129 /* UIButton.swift */; };
+		C1B881892777248700ADB129 /* ItemsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B881882777248700ADB129 /* ItemsCollectionViewCell.swift */; };
+		C1B8818B2777272C00ADB129 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B8818A2777272C00ADB129 /* ItemView.swift */; };
+		C1B8818D27773DC300ADB129 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B8818C27773DC300ADB129 /* Const.swift */; };
+		C1B881912777559700ADB129 /* UIResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B881902777559700ADB129 /* UIResponder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C17327B52775F42D00738D09 /* TTop_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTop_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17327B82775F42D00738D09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C17327BA2775F42D00738D09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C17327BC2775F42D00738D09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C17327BF2775F42D00738D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C17327C12775F43000738D09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -33,7 +62,37 @@
 		C17327D62775F90300738D09 /* DynamicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicModel.swift; sourceTree = "<group>"; };
 		C17327D82775F9FC00738D09 /* DynamicRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicRouter.swift; sourceTree = "<group>"; };
 		C17327DA2775FADD00738D09 /* DynamicPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicPresenter.swift; sourceTree = "<group>"; };
-		C17327DC2776408300738D09 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		C17327DC2776408300738D09 /* TableListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableListViewCell.swift; sourceTree = "<group>"; };
+		C1B8814D277652E900ADB129 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		C1B881512776532700ADB129 /* IRANYekan-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRANYekan-Bold.ttf"; sourceTree = "<group>"; };
+		C1B881522776532700ADB129 /* IRANSansMobile-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRANSansMobile-Bold.otf"; sourceTree = "<group>"; };
+		C1B881532776532700ADB129 /* DiodrumArabic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DiodrumArabic-Bold.ttf"; sourceTree = "<group>"; };
+		C1B881542776532700ADB129 /* DiodrumArabic-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DiodrumArabic-Semibold.ttf"; sourceTree = "<group>"; };
+		C1B881552776532700ADB129 /* IRANSansMobile-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRANSansMobile-Medium.otf"; sourceTree = "<group>"; };
+		C1B881562776532700ADB129 /* DiodrumArabic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DiodrumArabic-Regular.ttf"; sourceTree = "<group>"; };
+		C1B881572776532700ADB129 /* Lalezar.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lalezar.ttf; sourceTree = "<group>"; };
+		C1B881582776532700ADB129 /* DiodrumArabic-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DiodrumArabic-Medium.ttf"; sourceTree = "<group>"; };
+		C1B881592776532700ADB129 /* IRANYekan-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRANYekan-Light.ttf"; sourceTree = "<group>"; };
+		C1B8815A2776532700ADB129 /* IRANSansMobile-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRANSansMobile-Light.otf"; sourceTree = "<group>"; };
+		C1B8815B2776532700ADB129 /* IRANSansMobile-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IRANSansMobile-UltraLight.otf"; sourceTree = "<group>"; };
+		C1B8815C2776532700ADB129 /* DiodrumArabic-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DiodrumArabic-Light.ttf"; sourceTree = "<group>"; };
+		C1B8815D2776532700ADB129 /* me_quran.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = me_quran.ttf; sourceTree = "<group>"; };
+		C1B8815E2776532700ADB129 /* IRANSansMobile.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSansMobile.otf; sourceTree = "<group>"; };
+		C1B8815F2776532700ADB129 /* DiodrumArabic-Extralight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DiodrumArabic-Extralight.ttf"; sourceTree = "<group>"; };
+		C1B881602776532700ADB129 /* Yekan.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Yekan.ttf; sourceTree = "<group>"; };
+		C1B881712776538F00ADB129 /* FontString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontString.swift; sourceTree = "<group>"; };
+		C1B88173277653BA00ADB129 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		C1B88175277653CE00ADB129 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		C1B881772776540D00ADB129 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		C1B881792776567100ADB129 /* DynamicInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicInteractor.swift; sourceTree = "<group>"; };
+		C1B8817B2776EE5900ADB129 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = TTop_Sample/data.json; sourceTree = SOURCE_ROOT; };
+		C1B8817D27770E2900ADB129 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		C1B8818427771F3600ADB129 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		C1B88186277722F700ADB129 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		C1B881882777248700ADB129 /* ItemsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCollectionViewCell.swift; sourceTree = "<group>"; };
+		C1B8818A2777272C00ADB129 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		C1B8818C27773DC300ADB129 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		C1B881902777559700ADB129 /* UIResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIResponder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1B8814A27764DB700ADB129 /* DropDown in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +128,8 @@
 			children = (
 				C17327C62775F43000738D09 /* Info.plist */,
 				C17327D12775F61100738D09 /* AppMain */,
+				C1B8814F2776531100ADB129 /* Resource */,
+				C1B8814C277652C500ADB129 /* Extension */,
 				C17327CE2775F51C00738D09 /* View */,
 				C17327BC2775F42D00738D09 /* ViewController.swift */,
 				C17327CF2775F52500738D09 /* Interactor */,
@@ -109,6 +171,7 @@
 		C17327CF2775F52500738D09 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				C1B881792776567100ADB129 /* DynamicInteractor.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -124,8 +187,9 @@
 		C17327D12775F61100738D09 /* AppMain */ = {
 			isa = PBXGroup;
 			children = (
-				C17327BA2775F42D00738D09 /* SceneDelegate.swift */,
+				C1B8817B2776EE5900ADB129 /* data.json */,
 				C17327B82775F42D00738D09 /* AppDelegate.swift */,
+				C1B8818C27773DC300ADB129 /* Const.swift */,
 			);
 			path = AppMain;
 			sourceTree = "<group>";
@@ -133,7 +197,10 @@
 		C17327D22775F66100738D09 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				C17327DC2776408300738D09 /* MainTableViewCell.swift */,
+				C17327DC2776408300738D09 /* TableListViewCell.swift */,
+				C1B8818427771F3600ADB129 /* ListView.swift */,
+				C1B881882777248700ADB129 /* ItemsCollectionViewCell.swift */,
+				C1B8818A2777272C00ADB129 /* ItemView.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -144,6 +211,52 @@
 				C17327D42775F86400738D09 /* DynamicProtocols.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C1B8814C277652C500ADB129 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C1B88175277653CE00ADB129 /* String.swift */,
+				C1B881772776540D00ADB129 /* UIColor.swift */,
+				C1B8814D277652E900ADB129 /* UILabel.swift */,
+				C1B88186277722F700ADB129 /* UIButton.swift */,
+				C1B88173277653BA00ADB129 /* UIFont.swift */,
+				C1B8817D27770E2900ADB129 /* Bundle.swift */,
+				C1B881902777559700ADB129 /* UIResponder.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C1B8814F2776531100ADB129 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C1B881712776538F00ADB129 /* FontString.swift */,
+				C1B881502776532700ADB129 /* Font */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C1B881502776532700ADB129 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				C1B881512776532700ADB129 /* IRANYekan-Bold.ttf */,
+				C1B881522776532700ADB129 /* IRANSansMobile-Bold.otf */,
+				C1B881532776532700ADB129 /* DiodrumArabic-Bold.ttf */,
+				C1B881542776532700ADB129 /* DiodrumArabic-Semibold.ttf */,
+				C1B881552776532700ADB129 /* IRANSansMobile-Medium.otf */,
+				C1B881562776532700ADB129 /* DiodrumArabic-Regular.ttf */,
+				C1B881572776532700ADB129 /* Lalezar.ttf */,
+				C1B881582776532700ADB129 /* DiodrumArabic-Medium.ttf */,
+				C1B881592776532700ADB129 /* IRANYekan-Light.ttf */,
+				C1B8815A2776532700ADB129 /* IRANSansMobile-Light.otf */,
+				C1B8815B2776532700ADB129 /* IRANSansMobile-UltraLight.otf */,
+				C1B8815C2776532700ADB129 /* DiodrumArabic-Light.ttf */,
+				C1B8815D2776532700ADB129 /* me_quran.ttf */,
+				C1B8815E2776532700ADB129 /* IRANSansMobile.otf */,
+				C1B8815F2776532700ADB129 /* DiodrumArabic-Extralight.ttf */,
+				C1B881602776532700ADB129 /* Yekan.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +275,9 @@
 			dependencies = (
 			);
 			name = TTop_Sample;
+			packageProductDependencies = (
+				C1B8814927764DB700ADB129 /* DropDown */,
+			);
 			productName = TTop_Sample;
 			productReference = C17327B52775F42D00738D09 /* TTop_Sample.app */;
 			productType = "com.apple.product-type.application";
@@ -190,6 +306,9 @@
 				Base,
 			);
 			mainGroup = C17327AC2775F42D00738D09;
+			packageReferences = (
+				C1B8814827764DB700ADB129 /* XCRemoteSwiftPackageReference "DropDown" */,
+			);
 			productRefGroup = C17327B62775F42D00738D09 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -204,9 +323,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1B8816D2776532700ADB129 /* me_quran.ttf in Resources */,
+				C1B881672776532700ADB129 /* Lalezar.ttf in Resources */,
 				C17327C52775F43000738D09 /* LaunchScreen.storyboard in Resources */,
+				C1B8817C2776EE5900ADB129 /* data.json in Resources */,
+				C1B881642776532700ADB129 /* DiodrumArabic-Semibold.ttf in Resources */,
 				C17327C22775F43000738D09 /* Assets.xcassets in Resources */,
+				C1B8816F2776532700ADB129 /* DiodrumArabic-Extralight.ttf in Resources */,
+				C1B881622776532700ADB129 /* IRANSansMobile-Bold.otf in Resources */,
+				C1B881612776532700ADB129 /* IRANYekan-Bold.ttf in Resources */,
+				C1B881662776532700ADB129 /* DiodrumArabic-Regular.ttf in Resources */,
+				C1B881652776532700ADB129 /* IRANSansMobile-Medium.otf in Resources */,
+				C1B881682776532700ADB129 /* DiodrumArabic-Medium.ttf in Resources */,
+				C1B881632776532700ADB129 /* DiodrumArabic-Bold.ttf in Resources */,
+				C1B881692776532700ADB129 /* IRANYekan-Light.ttf in Resources */,
 				C17327C02775F42D00738D09 /* Main.storyboard in Resources */,
+				C1B8816B2776532700ADB129 /* IRANSansMobile-UltraLight.otf in Resources */,
+				C1B8816E2776532700ADB129 /* IRANSansMobile.otf in Resources */,
+				C1B8816A2776532700ADB129 /* IRANSansMobile-Light.otf in Resources */,
+				C1B881702776532700ADB129 /* Yekan.ttf in Resources */,
+				C1B8816C2776532700ADB129 /* DiodrumArabic-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,12 +354,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				C17327BD2775F42D00738D09 /* ViewController.swift in Sources */,
+				C1B8818D27773DC300ADB129 /* Const.swift in Sources */,
 				C17327B92775F42D00738D09 /* AppDelegate.swift in Sources */,
-				C17327DD2776408300738D09 /* MainTableViewCell.swift in Sources */,
+				C17327DD2776408300738D09 /* TableListViewCell.swift in Sources */,
+				C1B88187277722F700ADB129 /* UIButton.swift in Sources */,
 				C17327D92775F9FC00738D09 /* DynamicRouter.swift in Sources */,
+				C1B8814E277652E900ADB129 /* UILabel.swift in Sources */,
 				C17327DB2775FADD00738D09 /* DynamicPresenter.swift in Sources */,
-				C17327BB2775F42D00738D09 /* SceneDelegate.swift in Sources */,
+				C1B881912777559700ADB129 /* UIResponder.swift in Sources */,
+				C1B88176277653CF00ADB129 /* String.swift in Sources */,
+				C1B881892777248700ADB129 /* ItemsCollectionViewCell.swift in Sources */,
+				C1B8818527771F3600ADB129 /* ListView.swift in Sources */,
+				C1B88174277653BB00ADB129 /* UIFont.swift in Sources */,
+				C1B881782776540D00ADB129 /* UIColor.swift in Sources */,
+				C1B8817A2776567100ADB129 /* DynamicInteractor.swift in Sources */,
+				C1B8818B2777272C00ADB129 /* ItemView.swift in Sources */,
+				C1B881722776538F00ADB129 /* FontString.swift in Sources */,
 				C17327D52775F86400738D09 /* DynamicProtocols.swift in Sources */,
+				C1B8817E27770E2900ADB129 /* Bundle.swift in Sources */,
 				C17327D72775F90300738D09 /* DynamicModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +592,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C1B8814827764DB700ADB129 /* XCRemoteSwiftPackageReference "DropDown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AssistoLab/DropDown.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C1B8814927764DB700ADB129 /* DropDown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1B8814827764DB700ADB129 /* XCRemoteSwiftPackageReference "DropDown" */;
+			productName = DropDown;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C17327AD2775F42D00738D09 /* Project object */;
 }
